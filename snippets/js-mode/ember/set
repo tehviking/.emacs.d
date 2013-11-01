@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Ember Set
+# key: set
+# --
+${1:this}.set('$2', $3)$0

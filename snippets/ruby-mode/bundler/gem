@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: gem declaration
+# key: gem
+# --
+gem "$1"${2:, "$3"}

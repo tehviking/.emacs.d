@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: expect notToBeDisabled
+# key: endis
+# --
+expect($1).not.toBeDisabled()

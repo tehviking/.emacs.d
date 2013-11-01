@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Expect toBeDefined
+# key: ed
+# --
+expect($1).toBeDefined()$0

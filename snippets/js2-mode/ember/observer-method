@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Ember Observer Method
+# key: obs
+# --
+$1: function() {
+$0
+}.observes("$2")

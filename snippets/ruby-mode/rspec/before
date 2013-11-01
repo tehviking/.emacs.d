@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: RSpec before
+# key: bef
+# --
+before do
+$0
+end

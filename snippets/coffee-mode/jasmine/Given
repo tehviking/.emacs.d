@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Given
+# key: G
+# --
+Given -> $1
+$0

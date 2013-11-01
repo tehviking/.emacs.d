@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: expect toBeDisabled
+# key: edis
+# --
+expect($1).toBeDisabled()$0

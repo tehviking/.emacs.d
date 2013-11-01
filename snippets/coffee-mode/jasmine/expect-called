@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: expect toHaveBeenCalled
+# key: ec
+# --
+expect($1).toHaveBeenCalled()$0

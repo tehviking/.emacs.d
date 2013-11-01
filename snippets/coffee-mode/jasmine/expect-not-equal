@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: expect not.toEqual
+# key: ene
+# --
+expect($1).not.toEqual $2$0

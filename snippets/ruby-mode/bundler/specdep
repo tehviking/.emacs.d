@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: gem dependency
+# key: specdep
+# --
+spec.add_dependency "$1"${2:, "${3:$$(yas/choose-value '("~> " ">= " "> "))}$4"}$0

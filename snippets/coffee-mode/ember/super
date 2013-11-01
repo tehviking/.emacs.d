@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Ember Invoke Super
+# key: sup
+# --
+@_super $1$0

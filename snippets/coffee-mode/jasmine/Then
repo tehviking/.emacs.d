@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Then
+# key: T
+# --
+Then -> $1
+$0

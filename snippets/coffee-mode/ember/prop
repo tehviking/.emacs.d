@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Ember Property
+# key: prop
+# --
+$1: (->
+  $0
+).property '$2'

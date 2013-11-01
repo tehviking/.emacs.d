@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ember get
+# key: get
+# --
+${1:@}get '${2:key}'$0

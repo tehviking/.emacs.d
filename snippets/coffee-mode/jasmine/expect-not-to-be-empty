@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: expect not.toBeEmpty
+# key: eene
+# --
+expect($1).not.toBeEmpty()

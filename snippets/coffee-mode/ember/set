@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ember set
+# key: set
+# --
+${1:@}set '${2:key}', ${3:value}$0
