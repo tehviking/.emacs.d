@@ -27,6 +27,8 @@
 
 (add-to-list 'auto-mode-alist '("\\.hbs\\'" . web-mode))
 
-
 ;; smart parens configuration
 (require 'smartparens-config)
+
+;; drag stuff rules!
+(drag-stuff-global-mode)
