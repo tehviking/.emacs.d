@@ -32,3 +32,7 @@
 
 ;; drag stuff rules!
 (drag-stuff-global-mode)
+
+;; I use enh-ruby-mode and not ruby mode, but I gotta have my snippets!
+(add-hook 'enh-ruby-mode-hook
+          (lambda() (yas-activate-extra-mode 'ruby-mode)))
