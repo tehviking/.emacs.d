@@ -29,6 +29,7 @@
 
 ;; smart parens configuration
 (require 'smartparens-config)
+(smartparens-global-mode)
 
 ;; drag stuff rules!
 (drag-stuff-global-mode)
