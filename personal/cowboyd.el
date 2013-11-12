@@ -37,3 +37,10 @@
 ;; I use enh-ruby-mode and not ruby mode, but I gotta have my snippets!
 (add-hook 'enh-ruby-mode-hook
           (lambda() (yas-activate-extra-mode 'ruby-mode)))
+
+;; Disable smartparens-mode when using multiple cursors. they don't play well together
+(add-to-list 'mc/unsupported-minor-modes 'smartparens-mode)
+
+
+;; Yay autocomplete
+(require 'auto-complete-config)
