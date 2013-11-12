@@ -25,7 +25,9 @@
           (lambda () (local-set-key (kbd "C-c C-c") 'comment-or-uncomment-region)))
 
 
+;; make sure that handlebars templates load in web-mode
 (add-to-list 'auto-mode-alist '("\\.hbs\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("Gemfile" . enh-ruby-mode))
 
 ;; smart parens configuration
 (require 'smartparens-config)
