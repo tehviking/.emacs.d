@@ -2,5 +2,5 @@
 # name: before each
 # key: bef
 # --
-beforeEach ->
-  $0
+before ->
+      $0
