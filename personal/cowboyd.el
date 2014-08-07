@@ -53,7 +53,8 @@
 (add-to-list 'auto-mode-alist '("\\.hbs\\'" . web-mode))
 
 
-;;(add-to-list 'auto-mode-alist '("Gemfile" . enh-ruby-mode))
+(add-to-list 'auto-mode-alist '("Gemfile" . ruby-mode))
+(add-to-list 'auto-mode-alist '("\\.gemspec\\'" . ruby-mode))
 
 ;; smart parens configuration
 (require 'smartparens-config)
@@ -82,3 +83,34 @@
 ;; Twitter
 (setq twittering-icon-mode t)
 (setq twittering-use-icon-storage t)
+
+
+
+;; Karma running
+(defun karma-run ()
+  "Run Javascript tests against current Karma Server"
+  (interactive)
+  (compile "karma run"))
+(key-chord-define-global "kk" 'karma-run)
+
+
+;; setup multiterm
+(setq multi-term-program "/bin/zsh")
+(add-hook 'term-mode-hook
+          (lambda ()
+            (setq term-buffer-maximum-size 10000)))
+(add-hook 'term-mode-hook
+          (lambda ()
+            (setq show-trailing-whitespace nil)))
+
+;; Cats!
+(nyan-mode)
+
+;;setup discover
+
+(require 'discover)
+(global-discover-mode 1)
+
+;; Javascript settings
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(require 'js2-refactor)
