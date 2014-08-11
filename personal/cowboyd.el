@@ -114,3 +114,5 @@
 ;; Javascript settings
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 (require 'js2-refactor)
+;; JavaScript refactorings all start with C-c C-r (for refactor!)
+(js2r-add-keybindings-with-prefix "C-c C-r")
