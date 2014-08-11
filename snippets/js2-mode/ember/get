@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: Ember Get
-# key: get
-# --
-${1:this}.get('$2')$0

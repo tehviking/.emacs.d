@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: Ember Super
-# key: sup
-# --
-this._super($1)$0
