@@ -1,0 +1,5 @@
+(diminish 'prelude-mode)
+(diminish 'which-key-mode)
+(diminish 'whitespace-mode)
+(diminish 'flyspell-mode)
+(diminish 'smartparens-mode)
